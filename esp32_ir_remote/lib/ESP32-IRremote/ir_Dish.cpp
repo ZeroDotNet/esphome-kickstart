@@ -11,7 +11,7 @@
 
 // Sharp and DISH support by Todd Treece ( http://unionbridge.org/design/ircommand )
 //
-// The sned function needs to be repeated 4 times
+// The send function needs to be repeated 4 times
 //
 // Only send the last for characters of the hex.
 // I.E.  Use 0x1C10 instead of 0x0000000000001C10 as listed in the LIRC file.
