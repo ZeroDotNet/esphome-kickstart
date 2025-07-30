@@ -31,7 +31,7 @@ void loop() {
         case LG: Serial.println("LG"); break ;
         case WHYNTER: Serial.println("WHYNTER"); break ;
         case AIWA_RC_T501: Serial.println("AIWARC_T501"); break ;
-        case PANASONIC: Serial.println("PNASONIC"); break ;
+        case PANASONIC: Serial.println("PANASONIC"); break ;
         case DENON: Serial.println("DENON"); break ;
       default:
         case UNKNOWN: Serial.println("UNKNOWN"); break ;
