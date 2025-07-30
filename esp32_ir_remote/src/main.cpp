@@ -66,7 +66,7 @@ void onRequest(AsyncWebServerRequest *request) {
 
 
 void onFileUpload(AsyncWebServerRequest *request, const String& filename, size_t index, uint8_t *data, size_t len, bool final) {
-    // dummy callback function signature, not in used in our code
+    // dummy callback function signature, not used in our code
 }
 
 
