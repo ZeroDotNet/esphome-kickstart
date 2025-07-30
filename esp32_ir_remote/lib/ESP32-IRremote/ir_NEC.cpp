@@ -81,7 +81,7 @@ bool  IRrecv::decodeNEC (decode_results *results)
 		// Check data "mark"
 		if (!MATCH_MARK(results->rawbuf[offset], NEC_BIT_MARK))  return false ;
 		offset++;
-        // Suppend this bit
+        // Append this bit
 		if      (MATCH_SPACE(results->rawbuf[offset], NEC_ONE_SPACE ))  data = (data << 1) | 1 ;
 		else if (MATCH_SPACE(results->rawbuf[offset], NEC_ZERO_SPACE))  data = (data << 1) | 0 ;
 		else                                                            return false ;
