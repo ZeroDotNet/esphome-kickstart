@@ -26,7 +26,7 @@ void loop() {
         case SHARP: Serial.println("SHARP"); break ;
         case JVC: Serial.println("JVC"); break ;
         case SANYO: Serial.println("SANYO"); break ;
-        case MITSUBISHI: Serial.println("MISUBISHI"); break ;
+        case MITSUBISHI: Serial.println("MITSUBISHI"); break ;
         case SAMSUNG: Serial.println("SAMSUNG"); break ;
         case LG: Serial.println("LG"); break ;
         case WHYNTER: Serial.println("WHYNTER"); break ;
